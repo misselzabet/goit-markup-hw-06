@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -56,6 +56,78 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="btn-mobile-menu-open">
+          <svg class="modal-icon-ptivacy" width="10" height="8">
+            <use href="./images/icons.svg#icon-check"></use>
+          </svg>
+        </button>
+      </div>
+      <!-- ==== -->
+      <div class="mob-menu">
+        <button type="button" class="btn-mobile-menu-close">
+          <svg class="modal-icon-ptivacy" width="10" height="8">
+            <use href="./images/icons.svg#icon-check"></use>
+          </svg>
+        </button>
+        <nav>
+          <div class="mob-first-box">
+            <ul class="mob-first-line-contact">
+              <li>
+                <a href="./index.html" class="mob-link current"> Studio </a>
+              </li>
+              <li><a href="" class="mob-link"> Portfolio </a></li>
+              <li><a href="" class="mob-link">Contacts</a></li>
+            </ul>
+          </div>
+          <div>
+            <address class="mob-contacts">
+              <ul class="mob-tel">
+                <li>
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="mob-link-contacts current"
+                    >info@devstudio.com<br />
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+110001111111" class="mob-link-contacts"
+                    >+11 (000) 111-11-11<br />
+                  </a>
+                </li>
+              </ul>
+            </address>
+          </div>
+        </nav>
+        <ul class="social-media">
+          <li class="social-media-list">
+            <a href="https://instagram.com" class="social-media-link-footer">
+              <svg class="social-media-icon-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-list">
+            <a href="https://twitter.com" class="social-media-link-footer">
+              <svg class="social-media-icon-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-list">
+            <a href="https://facebook.com" class="social-media-link-footer">
+              <svg class="social-media-icon-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-media-list">
+            <a href="https://linkedin.com" class="social-media-link-footer">
+              <svg class="social-media-icon-footer" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -68,7 +140,7 @@
         </div>
       </section>
 
-      <!-- second sectoin  -->
+      <!-- second sectoin  !-->
       <section class="benefits">
         <div class="container">
           <h2 class="visually-hidden">Benefits</h2>
@@ -153,6 +225,7 @@
           <ul class="our-team-table">
             <li class="our-team-line">
               <img
+                srcset="./images/img1.jpeg 1x, ./images/img1-2x.jpeg 2x"
                 src="./images/img1.jpg"
                 alt="man-with-laptop-presenting-something.png"
                 width="264"
@@ -160,7 +233,7 @@
               <div class="our-team-text">
                 <h3 class="our-team-item">Mark Guerrero</h3>
                 <p class="our-team-paragraf">Product Designer</p>
-                <ul class="social-media">
+                <ul class="mob-social-media">
                   <li class="social-media-list">
                     <a href="https://instagram.com" class="social-media-link">
                       <svg
@@ -205,6 +278,7 @@
 
             <li class="our-team-line">
               <img
+                srcset="./images/img2.jpg 1x, ./images/img1-2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="MAN-in-a-shirt-smiling"
                 width="264"
@@ -247,6 +321,7 @@
 
             <li class="our-team-line">
               <img
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair"
                 width="264"
@@ -289,6 +364,7 @@
             </li>
             <li class="our-team-line">
               <img
+                srcset="./images/img4.jpg 1x, ./images/img4-2x.jpg 2x"
                 src="./images/img4.jpg"
                 alt="confident-handsome-guy-posing-against-white-wall"
                 width="264"
@@ -340,6 +416,7 @@
             <li class="our-portfolio-line">
               <div class="card">
                 <img
+                  srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x"
                   src="./images/img5.jpg"
                   alt="violet-banking-app"
                   width="360"
@@ -358,6 +435,7 @@
             <li class="our-portfolio-line">
               <div class="card">
                 <img
+                  srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
                   src="./images/img6.jpg"
                   alt="Cashless-Payment-with-app"
                   width="360"
@@ -377,6 +455,7 @@
             <li class="our-portfolio-line">
               <div class="card">
                 <img
+                  srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
                   src="./images/img7.jpg"
                   alt="laptop_and-phone-with-open-app"
                   width="360"
@@ -396,6 +475,7 @@
             <li class="our-portfolio-line">
               <div class="card">
                 <img
+                  srcset="./images/img8.jpg 1x, ./images/img8-2x.jpg 2x"
                   src="./images/img8.jpg"
                   alt="phone-with-opened-app-in-a-car"
                   width="360"
@@ -415,6 +495,7 @@
             <li class="our-portfolio-line">
               <div class="card">
                 <img
+                  srcset="./images/img9.jpg 1x, ./images/img9-2x.jpg 2x"
                   src="./images/img9.jpg"
                   alt="lockscreen-witn-beautifull-wallpaper"
                   width="360"
@@ -434,6 +515,7 @@
             <li class="our-portfolio-line">
               <div class="card">
                 <img
+                  srcset="./images/img10.jpg 1x, ./images/img10-2x.jpg 2x"
                   src="./images/img10.jpg"
                   alt="charming-short-haired-lady-gray-hat-standing-beside-wall-with-smartphone"
                   width="360"
@@ -501,31 +583,29 @@
           </ul>
         </div>
         <div class="footer-form">
-        
-        <p class="footer-subscribe">
-            Subscribe
-        </p>
-        <form class="footer-form">
-          <label for="footer-emeil" class="footer-label"
-            
-            aria-label="footer-emeil">
-          <input
-            class="footer-emeil"
-            type="email"
-            name="footer-emeil"
-            id="footer-emeil"
-            placeholder="E-mail"
-          />
-           </label>
+          <p class="footer-subscribe">Subscribe</p>
+          <form class="footer-form-subscribe">
+            <label
+              for="footer-emeil"
+              class="footer-label"
+              aria-label="footer-emeil"
+            >
+              <input
+                class="footer-emeil"
+                type="email"
+                name="footer-emeil"
+                id="footer-emeil"
+                placeholder="E-mail"
+              />
+            </label>
 
-
-          <button type="submit" class="footer-btn">
-            Subscribe
-            <svg class="footer-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
+            <button type="submit" class="footer-btn">
+              Subscribe
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
@@ -533,67 +613,66 @@
     <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="modal-butt">
-         <svg class="modal-close" width="8" height="8">
-          <use href=./images/icons.svg#icon-close> </use>
-         </svg>
+          <svg class="modal-close" width="8" height="8">
+            <use href=./images/icons.svg#icon-close>
+          </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form>
           <div class="modal-filed-wrap">
             <label class="modal-label" for="user-name"> Name </label>
             <div class="modal-icon-container">
-               <input
-                 type="text"
-                  class="modal-input"
-                 name="user-name"
-                 required
-                 id="user-name"
-                   />
-               
-                        <svg class="modal-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                required
+                id="user-name"
+              />
+
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
             </div>
-            </div>
-           <div class="modal-filed-wrap">
+          </div>
+          <div class="modal-filed-wrap">
             <label for="user-tel" class="modal-label">Phone </label>
             <div class="modal-icon-container">
-            <input
-              type="tel"
-              class="modal-input"
-              name="user-tel"
-              id="user-tel"
-              required
-            />
-             <svg class="modal-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-tel"></use>
-            </svg>
-             </div>
-             </div>
-             <div class="modal-filed-wrap">
+              <input
+                type="tel"
+                class="modal-input"
+                name="user-tel"
+                id="user-tel"
+                required
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-tel"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-filed-wrap">
             <label for="user_email" class="modal-label"> Email</label>
-             <div class="modal-icon-container">
-            <input
-              type="email"
-              class="modal-input"
-              name="user_email"
-              id="user_email"
-            />
-             <svg class="modal-icon" width="18" height="24">
-              <use href="./images/icons.svg#icon-emeil"></use>
-            </svg>
+            <div class="modal-icon-container">
+              <input
+                type="email"
+                class="modal-input"
+                name="user_email"
+                id="user_email"
+              />
+              <svg class="modal-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-emeil"></use>
+              </svg>
+            </div>
           </div>
-          </div>
-
-
 
           <div class="modal-filed-wrap-comment">
-            <label for="user-comment" class="modal-label" > Comment </label>
+            <label for="user-comment" class="modal-label"> Comment </label>
             <textarea
               class="modal-comment"
               name="user-comment"
               id="user-comment"
-              placeholder="Text input"></textarea>
+              placeholder="Text input"
+            ></textarea>
           </div>
           <div class="modal-filed-wrap-chek">
             <input
@@ -603,23 +682,19 @@
               value="true"
               class="visually-hidden modal-check"
             />
-            <label for="user-privacy" class="modal-check-text"> 
-                <span class="modal-check-container">
-             <svg class="modal-icon-ptivacy " width="10" height="8">
-                  <use href="./images/icons.svg#icon-check">  </use>
+            <label for="user-privacy" class="modal-check-text">
+              <span class="modal-check-container">
+                <svg class="modal-icon-ptivacy" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-            <a href="" class="polit">Privacy Policy </a>
-              
-
+              <a href="" class="polit">Privacy Policy </a>
             </label>
           </div>
           <button type="submit" class="btn-send">Send</button>
-         
         </form>
-     
+      </div>
     </div>
-     </div>
   </body>
 </html>
